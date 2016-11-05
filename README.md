@@ -23,7 +23,7 @@ MVP (Model View Presenter) pattern is a derivative from the well known MVC (Mode
 
 Location Handling by fused api.
 
-Utils class.
+Utils classes.
 
 
 # Here is our app gradle look like this.
