@@ -20,9 +20,9 @@ Febric for crashlytics.
 Butterknife for declaring our controls.
 
 
-# Here is our gradle look like this.
+# Here is our app gradle look like this.
 
-buildscript {
+    buildscript {
     repositories {
         maven { url 'https://maven.fabric.io/public' }
     }
@@ -30,17 +30,17 @@ buildscript {
     dependencies {
         classpath 'io.fabric.tools:gradle:1.+'
     }
-}
-apply plugin: 'com.android.application'
-apply plugin: 'io.fabric'
-apply plugin: 'com.neenbedankt.android-apt'
-apply plugin: 'me.tatarka.retrolambda'
+    }
+    apply plugin: 'com.android.application'
+    apply plugin: 'io.fabric'
+    apply plugin: 'com.neenbedankt.android-apt'
+    apply plugin: 'me.tatarka.retrolambda'
 
-android {
+    android {
     compileSdkVersion rootProject.ext.compileSdkVersion
     buildToolsVersion rootProject.ext.buildToolsVersion
 
-//app versioning
+    //app versioning
     def versionMajor = 1
     def versionMinor = 0
     def versionPatch = 0
@@ -64,16 +64,16 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
-}
+    }
 
-repositories {
+    repositories {
     maven {
         url "https://jitpack.io"
     }
     maven { url 'https://maven.fabric.io/public' }
-}
+    }
 
-dependencies {
+    dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
     compile "com.android.support:appcompat-v7:$rootProject.supportLibraryVersion"
     compile "com.android.support:design:$rootProject.supportLibraryVersion"
@@ -100,7 +100,7 @@ dependencies {
         transitive = true;
     }
 	
-}
+    }
 
 #Start from
 
