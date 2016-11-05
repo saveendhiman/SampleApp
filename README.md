@@ -19,6 +19,12 @@ Febric for crashlytics.
 
 Butterknife for declaring our controls.
 
+MVP (Model View Presenter) pattern is a derivative from the well known MVC (Model View Controller), which for a while now is gaining importance in the development of Android applications.
+
+Location Handling by fused api.
+
+Utils class.
+
 
 # Here is our app gradle look like this.
 
