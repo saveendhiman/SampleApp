@@ -3,7 +3,7 @@
 
 Hi guys, I have made one Project Structure for Android. This is the open project for any contributer who want to improve something here.
 
-It include api's call through Retrofit and RX java.
+It include api's call through Retrofit2 and RX java.
 
 Here i used dagger for dependency injection.
 
