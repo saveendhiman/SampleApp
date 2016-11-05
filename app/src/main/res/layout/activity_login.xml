@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:fillViewport="true"
+    tools:ignore="relativeOverlap,ButtonStyle">
+
+    <LinearLayout xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/margin_5x"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="com.sampleapp.module.login.LoginActivity"
+        tools:ignore="RtlHardcoded,contentDescription">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/progress_dimen"
+            android:layout_marginTop="@dimen/margin_4x"
+            android:src="@mipmap/ic_launcher" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_4x"
+            android:layout_marginTop="@dimen/margin_4x"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnFbLogin"
+                style="@style/SocialButton"
+                android:background="@color/colorFbButton"
+                android:text="@string/action_login_fb" />
+
+            <View
+                android:layout_width="@dimen/rounder_corner"
+                android:layout_height="match_parent" />
+
+            <Button
+                android:id="@+id/btnTwitterLogin"
+                style="@style/SocialButton"
+                android:background="@color/colorTwitterButton"
+                android:text="@string/action_login_twitter" />
+        </LinearLayout>
+
+
+        <TextView
+            style="@style/textSkip"
+            android:textSize="@dimen/text_very_small"
+            android:letterSpacing="0.15"
+            android:text="@string/hint_login" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardUserName"
+                style="@style/cardViewRegistration"
+                card_view:cardUseCompatPadding="false"
+                card_view:cardCornerRadius="0dp"
+                card_view:contentPadding="-3dp">
+
+                <LinearLayout style="@style/LinearCardContainer">
+
+                    <android.support.design.widget.TextInputLayout style="@style/TextInputTheme">
+
+                        <com.sampleapp.views.RemoveErrorEditText
+                            android:id="@+id/edtUserName"
+                            style="@style/EditTextRegistration"
+                            android:hint="@string/hint_login_type" />
+
+                    </android.support.design.widget.TextInputLayout>
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardPassword"
+                style="@style/cardViewRegistration"
+                card_view:cardCornerRadius="0dp"
+                card_view:cardUseCompatPadding="false"
+                card_view:cardPreventCornerOverlap="false"
+                card_view:contentPadding="-3dp">
+
+                <LinearLayout style="@style/LinearCardContainer">
+
+                    <android.support.design.widget.TextInputLayout style="@style/TextInputTheme">
+
+                        <com.sampleapp.views.RemoveErrorEditText
+                            android:id="@+id/edtPassword"
+                            style="@style/EditTextRegistration"
+                            android:hint="@string/hint_password"
+                            android:inputType="textPassword" />
+
+                    </android.support.design.widget.TextInputLayout>
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txtLogin"
+            style="@style/textSkip"
+            android:textSize="@dimen/text_very_small"
+            android:letterSpacing="0.15"
+            android:layout_marginTop="@dimen/margin_2x"
+            android:text="@string/action_login" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_3x">
+
+            <TextView
+                android:id="@+id/txtCreateAccount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/margin_1x"
+                android:text="@string/action_create_account"
+                android:textColor="@color/colorTextGrey"
+                android:textSize="@dimen/text_very_small" />
+
+            <TextView
+                android:id="@+id/txtNeedHelp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:padding="@dimen/margin_1x"
+                android:text="@string/action_need_help"
+                android:textColor="@color/colorTextGrey"
+                android:textSize="@dimen/text_very_small" />
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

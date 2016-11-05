@@ -1,0 +1,82 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Splash Activity theme. -->
+    <style name="Theme.Splash" parent="AppTheme">
+    <!--<item name="android:windowBackground"></item>-->
+    </style>
+
+    <!--button style for social buttons-->
+    <style name="SocialButton">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">@dimen/text_very_small</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+
+    <style name="textSkip">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">@dimen/margin_4x</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">@dimen/text_small</item>
+    </style>
+
+
+    <style name="cardViewRegistration">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/margin_10x</item>
+    </style>
+
+    <style name="LinearCardContainer">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/margin_15x</item>
+    </style>
+
+    <style name="TextInputTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:theme">@style/EditTextHint</item>
+        <item name="android:layout_height">@dimen/margin_10x</item>
+    </style>
+
+
+    <!--EditText color-->
+    <style name="EditTextHint" parent="TextAppearance.AppCompat">
+        <item name="android:textColorHint">@color/colorHint</item>
+        <item name="colorControlNormal">@android:color/white</item>
+        <item name="colorControlActivated">@color/colorHint</item>
+        <item name="colorControlHighlight">@color/colorHint</item>
+        <item name="android:textColorHighlight">@color/colorHint</item>
+        <item name="android:textColorLink">@color/colorHint</item>
+
+    </style>
+
+
+    <!--EditText style for login an registration-->
+    <style name="EditTextRegistration">
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_marginLeft">@dimen/margin_1x</item>
+        <item name="android:layout_marginRight">@dimen/margin_1x</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@android:color/white</item>
+        <item name="android:padding">@dimen/margin_2x</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textColorHint">@android:color/black</item>
+        <item name="android:textSize">@dimen/text_very_small</item>
+    </style>
+
+</resources>

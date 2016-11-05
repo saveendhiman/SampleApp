@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorTransGrey">#9FB7B7B7</color>
+    <color name="colorFbButton">#3B66C4</color>
+    <color name="colorTwitterButton">#32CCFF</color>
+    <color name="colorHint">#969696</color>
+    <color name="colorTextGrey">#939393</color>
+
+</resources>

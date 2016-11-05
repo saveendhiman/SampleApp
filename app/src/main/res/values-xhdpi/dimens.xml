@@ -1,0 +1,41 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!--dimens-->
+    <dimen name="margin_1x">7dp</dimen>
+    <dimen name="margin_2x">12dp</dimen>
+    <dimen name="margin_3x">17dp</dimen>
+    <dimen name="margin_4x">22dp</dimen>
+    <dimen name="margin_5x">27dp</dimen>
+    <dimen name="margin_6x">32dp</dimen>
+    <dimen name="margin_7x">37dp</dimen>
+    <dimen name="margin_8x">42dp</dimen>
+    <dimen name="margin_9x">47dp</dimen>
+    <dimen name="margin_10x">52dp</dimen>
+    <dimen name="margin_15x">78dp</dimen>
+    <dimen name="margin_12x">64dp</dimen>
+    <dimen name="margin_16x">85dp</dimen>
+
+    <!--text size-->
+    <dimen name="text_very_small">9sp</dimen>
+    <dimen name="text_small">12sp</dimen>
+    <dimen name="text_medium">15sp</dimen>
+    <dimen name="text_large">19sp</dimen>
+    <dimen name="text_xlarge">21.5sp</dimen>
+    <dimen name="text_xxlarge">24sp</dimen>
+    <dimen name="text_xxxlarge">26sp</dimen>
+
+    <!--extra dimen-->
+    <dimen name="rounder_corner">4dp</dimen>
+    <dimen name="progress_dimen">160dp</dimen>
+
+    <!--image height-->
+    <dimen name="imageview_dimen">170dp</dimen>
+    <dimen name="profile_image_dimen">205dp</dimen>
+    <dimen name="linespace_1x">1.1dp</dimen>
+
+    <dimen name="view_pager_height">205dp</dimen>
+
+</resources>
