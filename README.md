@@ -1,6 +1,16 @@
 # SampleApp
 # Android Project Structure
 
+<span class="badge-paypal"><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=LY7EX8WMWPWV6" title="Donate to this project using Paypal"><img src="https://img.shields.io/badge/paypal-donate-yellow.svg" alt="PayPal donate button" /></a></span>
+
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/2a8eb532d98842f6966bc164a896419a)](https://www.codacy.com/app/saveendhiman/AndroidShortcuts?utm_source=github.com&utm_medium=referral&utm_content=saveendhiman/AndroidShortcuts&utm_campaign=badger)
+[![Twitter](https://img.shields.io/badge/Twitter-@LacorteMichele-blue.svg?style=flat)](https://twitter.com/saveendhiman)
+
+[![API](https://img.shields.io/badge/API-14%2B-yellow.svg?style=flat)](https://android-arsenal.com/api?level=14)
+
+[![License](https://img.shields.io/badge/license-Apache%202-4EB1BA.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)
+
+
 Hi guys, I have made one Project Structure for Android. This is the open project for any contributer who want to improve something here.
 
 It include api's call through Retrofit2 and RX java.
@@ -107,6 +117,29 @@ Utils classes.
     }
 	
     }
+
+##DONATIONS
+
+This project needs you! If you would like to support this project's further development, the creator of this project or the continuous maintenance of this project, feel free to donate. Your donation is highly appreciated (and I love food, coffee and beer). Thank you!
+
+**PayPal**
+
+* **[Donate $5]**: Thank's for creating this project, here's a coffee (or some beer) for you!
+
+* **[Donate $10]**: Wow, I am stunned. Let me take you to the movies!ù
+
+* **[Donate $15]**: I really appreciate your work, let's grab some lunch!
+
+* **[Donate $25]**: That's some awesome stuff you did right there, dinner is on me!
+
+* **[Donate $50]**: I really really want to support this project, great job!
+
+* **[Donate $100]**: You are the man! This project saved me hours (if not days) of struggle and hard work, simply awesome!
+
+* **[Donate $2799]**: Go buddy, buy Macbook Pro for yourself!
+
+Of course, you can also choose what you want to donate, all donations are awesome!!
+
 
 #Start from
 
