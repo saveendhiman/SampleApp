@@ -156,3 +156,13 @@ Unless required by applicable law or agreed to in writing, software distributed 
 #Authors
 
 https://github.com/saveendhiman original Author
+
+
+[Donate $5]: 		https://www.paypal.me/saveendhiman/5
+[Donate $10]:  		https://www.paypal.me/saveendhiman/10
+[Donate $15]:  		https://www.paypal.me/saveendhiman/15
+[Donate $25]:  		https://www.paypal.me/saveendhiman/25
+[Donate $50]: 		https://www.paypal.me/saveendhiman/50
+[Donate $100]: 		https://www.paypal.me/saveendhiman/100
+[Donate $2799]: 	https://www.paypal.me/saveendhiman/2799
+
