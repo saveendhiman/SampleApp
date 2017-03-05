@@ -12,30 +12,39 @@
 
 Hi guys, I have made one Project Structure for Android. This is the open project for any contributer who want to improve something here.
 
-It include api's call through Retrofit2 and RX java.
+This a Sample Project Structure for Android which you can follow for a clean architecture.
 
-Here i used dagger for dependency injection.
+It shows usage of following libraries:
 
-Firebase added for notifications.
+* [Retrofit2] (https://square.github.io/retrofit/) for REST API.
 
-Calligraphy for settings fonts.
+* [RX java] (https://github.com/ReactiveX/RxJava) for background process and Retrofit integration.
 
-Picasso for image loading. You can use here glide also.
+* [Dagger2] (https://google.github.io/dagger/) for dependency injection.
 
-Komensky for validations.
+* [Firebase] (https://firebase.google.com/) for push notifications.
 
-Febric for crashlytics.
+* [Calligraphy] (https://github.com/chrisjenx/Calligraphy) for font.
 
-Butterknife for declaring our controls.
+* [Picasso] (http://square.github.io/picasso/) for image loading.
 
-MVP (Model View Presenter) pattern is a derivative from the well known MVC (Model View Controller), which for a while now is gaining importance in the development of Android applications.
+* [Komensky] (https://github.com/inmite/android-validation-komensky) validations for annotation based validations.
+
+* [Fabric] (https://get.fabric.io/#) for crashlytics.
+
+* [Butterknife] (http://jakewharton.github.io/butterknife/) for view binding.
+
+* [Timber] (https://github.com/JakeWharton/timber) for logging.
+
+It uses MVP (Model View Presenter) pattern. MVP is a derivative from the well known MVC (Model View Controller), which for a while now is gaining importance in the development of Android applications.This project also contains basic utility classes required for day to day programming.
+
 
 Location Handling by fused api.
 
 Utils classes.
 
 
-# Here is our app gradle look like this.
+# Here is what the app gradle look likes.
 
     buildscript {
     repositories {
@@ -110,13 +119,13 @@ Utils classes.
     compile "uk.co.chrisjenx:calligraphy:$rootProject.ext.calligraphyVersion"
     compile "com.squareup.picasso:picasso:$rootProject.ext.picassoVersion"
     compile "eu.inmite.android.lib:android-validation-komensky:$rootProject.ext.komenskyValidation@aar"
-    compile "com.facebook.android:facebook-android-sdk:$rootProject.ext.facebookVersion"
     compile("com.crashlytics.sdk.android:crashlytics:$rootProject.ext.crashVersion@aar") {
         transitive = true;
     }
 	
     }
-
+    apply plugin: 'com.google.gms.google-services'
+    
 ##DONATIONS
 
 This project needs you! If you would like to support this project's further development, the creator of this project or the continuous maintenance of this project, feel free to donate. Your donation is highly appreciated (and I love food, coffee and beer). Thank you!
