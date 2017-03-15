@@ -163,7 +163,7 @@ Unless required by applicable law or agreed to in writing, software distributed 
 
 #Authors
 
-https://github.com/saveendhiman original Author
+[Saveen Dhiman] (https://github.com/saveendhiman) original Author
 
 
 [Donate $5]: 		https://www.paypal.me/saveendhiman/5
