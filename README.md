@@ -16,25 +16,25 @@ This a Sample Project Structure for Android which you can follow for a clean arc
 
 It shows usage of following libraries:
 
-* [Retrofit2] (https://square.github.io/retrofit/) for REST API.
+* [Retrofit2] for REST API.
 
-* [RX java] (https://github.com/ReactiveX/RxJava) for background process and Retrofit integration.
+* [RX java] for background process and Retrofit integration.
 
-* [Dagger2] (https://google.github.io/dagger/) for dependency injection.
+* [Dagger2] for dependency injection.
 
-* [Firebase] (https://firebase.google.com/) for push notifications.
+* [Firebase] for push notifications.
 
-* [Calligraphy] (https://github.com/chrisjenx/Calligraphy) for font.
+* [Calligraphy] for font.
 
-* [Picasso] (http://square.github.io/picasso/) for image loading.
+* [Picasso] for image loading.
 
-* [Komensky] (https://github.com/inmite/android-validation-komensky) validations for annotation based validations.
+* [Komensky] validations for annotation based validations.
 
-* [Fabric] (https://get.fabric.io/#) for crashlytics.
+* [Fabric] for crashlytics.
 
-* [Butterknife] (http://jakewharton.github.io/butterknife/) for view binding.
+* [Butterknife] for view binding.
 
-* [Timber] (https://github.com/JakeWharton/timber) for logging.
+* [Timber] for logging.
 
 It uses MVP (Model View Presenter) pattern. MVP is a derivative from the well known MVC (Model View Controller), which for a while now is gaining importance in the development of Android applications.This project also contains basic utility classes required for day to day programming.
 
@@ -175,5 +175,16 @@ Unless required by applicable law or agreed to in writing, software distributed 
 [Donate $2799]: 	https://www.paypal.me/saveendhiman/2799
 
 [Saveen Dhiman]:        https://github.com/saveendhiman
+
+[Retrofit2]: 		https://square.github.io/retrofit
+[RX java]:		https://github.com/ReactiveX/RxJava
+[Dagger2]: 		https://google.github.io/dagger
+[Firebase]:             https://firebase.google.com
+[Calligraphy]:          https://github.com/chrisjenx/Calligraphy
+[Picasso]:              http://square.github.io/picasso
+[Komensky]:             https://github.com/inmite/android-validation-komensky
+[Fabric]:               https://get.fabric.io/#
+[Butterknife]:          http://jakewharton.github.io/butterknife
+[Timber]:               https://github.com/JakeWharton/timber
 
 
