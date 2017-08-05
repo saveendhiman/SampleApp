@@ -18,6 +18,8 @@ import butterknife.Unbinder;
 public abstract class BaseFragment extends Fragment {
 
     Unbinder mUnbinder;
+    public boolean hasMore = false;
+    public int pageNumber = 1;
 
     @Nullable
     @Override

@@ -1,5 +1,7 @@
 package com.sampleapp.base;
 
+import com.sampleapp.module.fragmentsample.SampleFragment;
+import com.sampleapp.module.fragmentsample.SamplePresenter;
 import com.sampleapp.utils.LocationTracker;
 import com.sampleapp.utils.UtilsModule;
 
@@ -16,4 +18,8 @@ import dagger.Component;
 @Component(modules = {UtilsModule.class})
 public interface AppComponent {
     void inject(LocationTracker locationTracker);
+
+    void inject(SamplePresenter samplePresenter);
+
+    void inject(SampleFragment sampleFragment);
 }
