@@ -14,7 +14,7 @@ Hi guys, I have made one Project Structure for Android. This is the open project
 
 This a Sample Project Structure for Android which you can follow for a clean architecture.
 
-It's quite old one. You can refer [ComplexRecycler] Sample project. It's in Kotlin too.
+**NOTE:** It's quite old one. You can refer [ComplexRecycler] Sample project. It's in Kotlin too.
 
 It shows usage of following libraries:
 
