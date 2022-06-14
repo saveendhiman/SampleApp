@@ -1,6 +1,6 @@
 # Add project specific ProGuard rules here.
 # By default, the flags in this file are appended to flags specified
-# in C:\Users\Anirudh_Sharma\AppData\Local\Android\Sdk/tools/proguard/proguard-android.txt
+# in C:\Android\Sdk/tools/proguard/proguard-android.txt
 # You can edit the include path and order by changing the proguardFiles
 # directive in build.gradle.
 #
@@ -98,7 +98,7 @@
 
 -keep class sun.misc.Unsafe { *; }
 #your package path where your gson models are stored
--keep class com.makersapp.model.** { *; }
+-keep class com.xyz.model.** { *; }
 
 # Keep these for GSON and Jackson
 -keepattributes Signature
